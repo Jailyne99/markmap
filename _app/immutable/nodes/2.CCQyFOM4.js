@@ -1,0 +1,13 @@
+import{s as J,b as K,e as p,a as c,h as O,c as d,d as g,f,g as Q,i as b,j as M,k as n,l as S,m as R}from"../chunks/scheduler.CHOKrCaR.js";import{S as U,i as W,b as X,c as z,a as A,m as I,t as N,d as D,e as B}from"../chunks/index.F5GFYZyK.js";import{M as Y}from"../chunks/markmap.DXR8Q0LC.js";import{F as Z}from"../chunks/footer.CzY5_SyX.js";function ee(u){let m,h,t,r,T="<em>markmap</em>",$,l,j="<em>mark</em>down + mind<em>map</em>",H,s,L,y,_,q="<strong>Visualize your Markdown with mindmaps</strong>",C,k,E='<a href="repl">Try it out →</a>',P,v,F='<a href="https://marketplace.visualstudio.com/items?itemName=gera2ld.markmap-vscode" target="_blank" rel="noreferrer noopener" data-ga-label="markmapVSCodeFromIndex">Try markmap in VSCode</a>',w,o,x;function G(e){u[2](e)}let V={content:u[1],style:"width: 100%; height: 300px"};return u[0]!==void 0&&(V.mm=u[0]),s=new Y({props:V}),K.push(()=>X(s,"mm",G)),o=new Z({}),{c(){m=p("meta"),h=c(),t=p("main"),r=p("h1"),r.innerHTML=T,$=c(),l=p("h2"),l.innerHTML=j,H=c(),z(s.$$.fragment),y=c(),_=p("p"),_.innerHTML=q,C=c(),k=p("p"),k.innerHTML=E,P=c(),v=p("p"),v.innerHTML=F,w=c(),z(o.$$.fragment),this.h()},l(e){const i=O("svelte-4samv7",document.head);m=d(i,"META",{name:!0,content:!0}),i.forEach(g),h=f(e),t=d(e,"MAIN",{class:!0});var a=Q(t);r=d(a,"H1",{class:!0,"data-svelte-h":!0}),b(r)!=="svelte-l5jk2u"&&(r.innerHTML=T),$=f(a),l=d(a,"H2",{class:!0,"data-svelte-h":!0}),b(l)!=="svelte-1tgjni8"&&(l.innerHTML=j),H=f(a),A(s.$$.fragment,a),y=f(a),_=d(a,"P",{"data-svelte-h":!0}),b(_)!=="svelte-1dkabq4"&&(_.innerHTML=q),C=f(a),k=d(a,"P",{"data-svelte-h":!0}),b(k)!=="svelte-1mnx80q"&&(k.innerHTML=E),P=f(a),v=d(a,"P",{"data-svelte-h":!0}),b(v)!=="svelte-s8gnk8"&&(v.innerHTML=F),a.forEach(g),w=f(e),A(o.$$.fragment,e),this.h()},h(){document.title="markmap",M(m,"name","Description"),M(m,"content","The website of gera2ld's markmap."),M(r,"class","text-6xl font-bold mb-2"),M(l,"class","text-3xl font-medium mb-2 text-gray-500"),M(t,"class","home inner")},m(e,i){n(document.head,m),S(e,h,i),S(e,t,i),n(t,r),n(t,$),n(t,l),n(t,H),I(s,t,null),n(t,y),n(t,_),n(t,C),n(t,k),n(t,P),n(t,v),S(e,w,i),I(o,e,i),x=!0},p(e,[i]){const a={};!L&&i&1&&(L=!0,a.mm=e[0],R(()=>L=!1)),s.$set(a)},i(e){x||(N(s.$$.fragment,e),N(o.$$.fragment,e),x=!0)},o(e){D(s.$$.fragment,e),D(o.$$.fragment,e),x=!1},d(e){e&&(g(h),g(t),g(w)),g(m),B(s),B(o,e)}}}function te(u,m,h){let t;const r=`---
+markmap:
+  zoom: false
+  pan: false
+---
+
+# markmap
+
+- beautiful
+- useful
+- easy
+- interactive
+`;function T($){t=$,h(0,t)}return[t,r,T]}class se extends U{constructor(m){super(),W(this,m,te,ee,J,{})}}export{se as component};
